@@ -1101,7 +1101,11 @@ ul {
       margin-bottom: 50px;
    }
 }
-
+@media (max-width: 767px) {
+   .work-steps .image img {
+      display: none;
+   }
+}
 .work-steps .container .info {
    flex: 1;
 }

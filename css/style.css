@@ -370,7 +370,10 @@ ul {
       font-size: 18px;
    }
 }
-
+.landing .text span {
+   display: inline-block;
+   color: var(--main-color);
+}
 .landing .image img {
    position: relative;
    width: 600px;

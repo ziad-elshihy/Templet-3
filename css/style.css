@@ -151,7 +151,7 @@ ul {
 
 .header .logo {
    color: var(--main-color);
-   font-size: 26px;
+   font-size: 35px;
    font-weight: bold;
    height: 72px;
    display: flex;

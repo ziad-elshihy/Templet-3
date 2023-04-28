@@ -30,11 +30,14 @@
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#features">Features</a></li>
             <li>
-               <a href="#">Other Links</a>
+               <a href="#" onclick="on()">Other Links</a>
                <!-- Start Mega-menu -->
-               <div class="mega-menu">
+               <div class="mega-menu" id="navigate">
                   <div class="image">
                      <img decoding="async" src="images/megamenu.png" alt="" />
+                  </div>
+                  <div class="close-mega">
+                     <a href="#" onclick="off()" ><i class="fa-solid fa-xmark"></i></a>
                   </div>
                   <ul class="links">
                      <li>
@@ -874,6 +877,7 @@
          Made With <i class="fa-solid fa-heart"></i> By <span>Ziad</span>
       </p>
    </section>
+   <script src="./script.js"></script>
    <!-- End Footer -->
 </body>
 
